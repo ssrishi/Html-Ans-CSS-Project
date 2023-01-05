@@ -1,0 +1,180 @@
+*{
+    font-family: Orbitron;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+div>img{
+    margin-top: 10px;
+    height: 40px;
+}
+.navbar-container{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 240px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Orbitron;
+}
+.list:hover{
+    cursor: pointer;
+}
+.list-item:hover::after{
+    display: block;
+    content:"";
+    position: relative;
+    height: 2px;
+    left: 17%;   
+    width: 70%;
+    background-color: #111;
+    /* transform-origin: bottom center; */
+}
+.list-item:hover{
+    transform: scale(1.17);
+}
+.button-group{
+    display: flex ;
+    margin-left: 170px ;
+}
+.search-icon{
+    position: absolute;
+    top: 60px;
+}
+.search-icon:hover{
+    transform: scale(1.07);
+}
+.nav-button:hover{
+    transform: scale(1.17);
+}
+.nav-button{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    border-radius: 12px;
+    border-color: #111;
+    background-color: #fff;
+    top: 55px;
+    right: 80px;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.star:nth-child(5n-8){
+    align-self: flex-start ;
+    order: 2;
+    position: absolute;
+    right: 630px;
+    top: 560px;
+}
+.star{
+    justify-content: center;
+    order: 2;
+    position: absolute;
+    right:120px 
+}
+.globe{
+    align-self: flex-start;
+    /* order: 2; */
+    position: absolute;
+    left: 720px;
+    bottom: 540px;
+    
+}
+.square{
+    order: 1;
+    align-self:center;
+    position: absolute;
+    top: 245px;
+    right: 757px;
+}
+.hero-container-right{
+    order: 0;
+    /* flex-wrap: wrap; */
+}
+div>div>img{
+    height: 580px;
+    position: relative;
+    margin-left: 50px;
+}
+.hero-heading{
+    width: 750px;
+    position: absolute;
+    left: 640px;
+    bottom: 380px;
+    font-size: 45px;
+}
+.hero-description{
+    width: 530px;
+    text-align: center;
+    position: absolute;
+    bottom: 310px;
+    right:  140px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: poppins;
+}
+.hero-container-right>div>button{
+    position: absolute;
+    top: 400px;
+    right: 350px;
+}
+.button-email{
+    right: 970px;
+    margin-right: 20px;
+    width: 200px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #3e3d3d;
+    border-color: #111;
+    border-radius: 7px;
+}
+.button-email:hover{
+    background-color: #111;
+    color: #fff;
+    transform: scale(1.17);
+}
+.button-join:hover{
+    background-color: #fff;
+    color: #111;
+    transform: scale(1.17);
+}
+.button-join{
+    left: 1000px;
+    width: 120px;
+    height: 28px;
+    font-size: 18px;
+    background-color: #111;
+    color: #fff;
+    border-color: #111;
+    border-radius: 7px;
+}
+.contact-heading{
+    position: relative;
+    top: 540px;
+    left: 370px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+    opacity: 0.7;
+    font-family: poppins;
+}
+.icons{
+    position: absolute;
+    top: 630px;
+    left: 830px;
+    width: 100px;
+    display: flex;
+    /* height: 100px; */
+    gap: 20px;
+}
