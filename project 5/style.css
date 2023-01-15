@@ -1,0 +1,86 @@
+.nav-container{
+    display: flex;
+    margin-left: 20px;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 500px;
+    gap: 40px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.list-item:hover{
+    color: #41d399;
+    transform: scale(1.07);
+    transition: 0.3s ease-in-out;
+}
+.banner-container{
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.heading{
+    display: inline-block;
+    font-family: Source Sans Pro;
+    font-size: 80px;
+    font-weight: 800;
+    width: 700px;
+    line-height: 100px;
+}
+.banner-container>p{
+    display: block;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    width: 650px;
+    color: #808080;
+}
+.banner-button{
+    height: 70px;
+    width: 320px;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #41d399;
+    color: #fff;
+    border-color: #41d399;
+}
+.banner-button:hover{
+    transform: scale(1.07);
+}
+.medifine-images>.tangle{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+}
+.medifine-images>img:nth-child(6n+2){
+    position: absolute;
+    bottom: 80px;
+    left: 630px;
+}
+.medifine-images>img:nth-child(6n+5){
+    position: absolute;
+    bottom: 1px;
+    left: 880px;
+}
+.medifine-images>img:nth-child(6n+3){
+    position: absolute;
+    left: 880px;
+    bottom: 30px;
+}
+.medifine-images>img:nth-child(6n+4){
+    position: absolute;
+    bottom: 45px;
+    left: 945px;
+}
+.medifine-images>img:nth-child(6n+6){
+    position: absolute;
+    bottom: 30px;
+    left: 680px;
+}
+.stethoscope{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+} 
